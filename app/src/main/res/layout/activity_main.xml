@@ -6,6 +6,239 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/slot8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slot4"
+        android:layout_toRightOf="@id/slot6"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/patientName8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Enter Patient Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/temperatureView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="36.5 C" />
+
+
+        <TextView
+            android:id="@+id/heartRateView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="96 bpm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slot7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slot1"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/patientName7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Enter Patient Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/temperatureView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="36.5 C" />
+
+
+        <TextView
+            android:id="@+id/heartRateView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="96 bpm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slot6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/slot5"
+        android:layout_below="@id/slot3"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/patientName6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Enter Patient Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/temperatureView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="36.5 C" />
+
+
+        <TextView
+            android:id="@+id/heartRateView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="96 bpm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slot5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slot2"
+        android:layout_toRightOf="@id/slot7"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/patientName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Enter Patient Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/temperatureView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="36.5 C" />
+
+
+        <TextView
+            android:id="@+id/heartRateView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="96 bpm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slot4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/slot3"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/patientName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Enter Patient Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/temperatureView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="36.5 C" />
+
+
+        <TextView
+            android:id="@+id/heartRateView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="96 bpm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/slot2"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/patientName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Enter Patient Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/temperatureView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="36.5 C" />
+
+
+        <TextView
+            android:id="@+id/heartRateView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="96 bpm" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/slot1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,60 +247,73 @@
         android:orientation="vertical">
 
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            android:text="string/player1_name_message" />
-
-
         <EditText
-            android:id="@+id/player1_name"
+            android:id="@+id/patientName1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="string/name"
+            android:hint="Enter Patient Name"
             android:inputType="textPersonName"
             android:minHeight="48dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/temperatureView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:text="string/player2_name_message" />
+            android:text="36.5 C" />
+
+
+        <TextView
+            android:id="@+id/heartRateView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="96 bpm"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/slot1"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
 
         <EditText
-            android:id="@+id/player2_name"
+            android:id="@+id/patientName2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_weight="2"
             android:ems="10"
-            android:hint="string/name"
+            android:hint="Enter Patient Name"
             android:inputType="textPersonName"
             android:minHeight="48dp" />
 
-        <Button
-            android:id="@+id/start_button"
+        <TextView
+            android:id="@+id/temperatureView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:onClick="onStartGame"
-            android:text="string/start_button_message" />
+            android:text="36.5 C" />
 
-        <Button
-            android:id="@+id/helpButton"
+
+        <TextView
+            android:id="@+id/heartRateView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:onClick="displayHelp"
-            android:text="string/help_button" />
+            android:text="96 bpm" />
+
     </LinearLayout>
 
 </RelativeLayout>
